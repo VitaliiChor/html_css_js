@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+}
+
+.text{
+    position: fixed;
+    color: yellow;
+    font-size: 50px;
+    font-weight: 700;
+    width: 800px;
+    height: 1000px;
+    margin-left: 30%;
+    overflow: hidden;
+    transform: perspective(200px) rotatex(30deg);
+}
+
+.text-decoration{
+    position: absolute;
+    animation: scroll 30s linear ;
+}
+@keyframes scroll {
+    from{
+        top: 70%;}
+    to{
+        top: -100%;
+    }
+}

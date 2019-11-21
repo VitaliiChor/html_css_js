@@ -1,0 +1,231 @@
+.head {
+    height: 450px;
+    background-image: url("../img/header.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+.black-line {
+    height: 56px;
+    background-color: black;
+    display: flex;
+}
+
+.logo {
+    width: 30%;
+    color: white;
+    font-size: 22px;
+    display: flex;
+    margin: auto 0;
+}
+
+.first-item {
+    color: white;
+    width: 40%;
+    margin: auto 0;
+}
+
+.menu {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.search {
+    display: flex;
+    margin: auto;
+}
+
+.latest-news {
+    font-size: 27px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+.two-button {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: -100px;
+}
+
+.button-subscribe {
+    width: 170px;
+    height: 55px;
+    color: white;
+    background-color: #89ca62;
+    border-radius: 5px;
+
+}
+
+.button-articles {
+    width: 170px;
+    height: 55px;
+    color: white;
+    background-color: #14b9d5;
+    border-radius: 5px;
+}
+
+.next-page {
+    display: flex;
+}
+
+.pop {
+    display: flex;
+    flex-direction: column;
+
+    background-color: #f2f2f2;
+}
+
+.popular-posts {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    font-size: 22px;
+    color: #14b9d5;
+}
+
+.container-1, .container-2 {
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+}
+
+.popular-posts-sub {
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+}
+
+.popular-clients {
+    display: grid;
+
+    background-image: url(../img/html_css_homework_homework6_img_parallax-bg.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.popular-clients-item {
+    display: grid;
+    grid-template-rows: 500px;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+}
+
+/*.line{*/
+/*    width: 400px;*/
+/*    height: 2px;*/
+/*}*/
+
+.name-of-clients {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
+
+.top-name {
+    text-align: center;
+    font-size: 27px;
+    color: #14b9d5;
+    margin: 50px;
+
+}
+
+.top-rated {
+    display: grid;
+    grid-template-columns: repeat(7, 13.8%);
+}
+
+.hot-news {
+    display: grid;
+    grid-row-gap: 50px;
+    margin-bottom: 30px;
+}
+
+.news-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.hotel-emirate {
+    display: grid;
+}
+
+.emirate-text {
+    display: grid;
+    align-items: center;
+}
+
+.hotel-spain {
+    display: grid;
+    justify-items: center;
+}
+
+.news-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.egypt-text {
+    display: grid;
+}
+
+.news-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+.hotel-spain-two {
+    display: grid;
+}
+
+.spain-two-text {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.black-line-2 {
+    display: grid;
+    grid-template-columns: 2fr 0fr 1fr;
+    height: 56px;
+    background-color: black;
+}
+
+.last-logo {
+    align-self: center;
+}
+
+.last-text {
+    display: grid;
+    align-self: center;
+    color: white;
+    justify-items: center;
+}
+
+.logo-text {
+    display: grid;
+    align-self: center;
+    color: white;
+
+}
